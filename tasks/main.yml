@@ -66,5 +66,5 @@
   become: true
 
 - name: Enable Docker service
-  service: name=docker enabled=true
+  service: name=docker enabled=true state=started
   become: true
